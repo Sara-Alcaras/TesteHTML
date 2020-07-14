@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Title</title>
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+    </head>
+    <body> 
+        <section class="hyper-menu">
+            <div class="hyper-menu-link">
+                <a href="#tel:">11 1234-1234 11 1234-1234</a>
+            </div>
+        </section>
+
+        <main role="main">
+        <div class="row">
+            <div class="col m6">
+                <div style="background:blue; width: 25rem; padding: 3rem 0;">
+                    <p style="font-size: 6rem; text-align: center; color: #fff;">Imagem</p>
+                </div>
+            </div>
+            <div class="col m6">
+                <nav class="menu">
+                    <ul class="menu-box">
+                        <li class="link-menu">
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="link-menu">
+                            <a href="#" onclick="openDropdown('dropdown1')" >Empresa</a>
+                            <ul class="dropdown" id="dropdown1" style="display: none;">
+                                <li class="link-dropdown">
+                                    <a href="#">submenu 1</a>
+                                </li>
+                                <li class="link-dropdown">
+                                    <a href="#">submenu 1</a>
+                                </li>
+                                <li class="link-dropdown">
+                                    <a href="#">submenu 1</a>
+                                </li>
+                                <li class="link-dropdown">
+                                    <a href="#" onclick="openSubDropdown('dropdown2')" >submenu 1 </a>
+                                    <ul class="sub-dropdown" id="dropdown2" style="display: none;">
+                                        <li class="link-sub-dropdown">
+                                            <a href="#">submenu 2</a>
+                                        </li>
+                                        <li class="link-sub-dropdown">
+                                            <a href="#">submenu 2</a>
+                                        </li>
+                                        <li class="link-sub-dropdown">
+                                            <a href="#">submenu 2</a>
+                                        </li>
+                                        <li class="link-sub-dropdown">
+                                            <a href="#">submenu 2</a>
+                                        </li>
+                                    </ul>                           
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="link-menu">
+                            <a href="#">Clientes</a>
+                        </li>
+                        <li class="link-menu">
+                            <a href="#">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <section class="slideshow">
+            <div class="slideshow-container">
+            
+                <div class="mySlides fade">
+                    <img src="assets/slide1.png" style="width: 100%;">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="assets/slide2.png" style="width: 100%;">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="assets/slide3.png" style="width: 100%;">
+                </div>
+
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+              </div>
+        </section>
+       
+        <section class="section-text">
+            <div class="row">
+                <div class="col m8">
+                    <div class="text-box">
+                        <h2>Teste de html e css</h2>
+                        <p>Quesitos de avaliação:</p>
+                        <ul>
+                            <li>Organização do código (quanto mais limpo melhor);</li>
+                            <li>Nível de detalhismo (quanto mais identico melhor);</li>
+                            <li>Tempo de desenvolvimento (seja sincero ao enviar o tempo gasto);</li>
+                        </ul>
+
+                        <p>Obrigado e boa sorte!</p>
+                        <div style="background:blue; width: 325px; height: 212px; padding: 3rem 0; margin-left: 112%; margin-top:-20%;">
+                            <p style="font-size: 6rem; text-align: center; margin-top: 25px; color: #fff;">Imagem</p>
+                        </div>
+                        
+
+                    </div>     
+                </div>
+               
+            </div>
+        </section>
+        
+        <section class="section-box">
+            <div class="row">
+                <div class="col m12">
+                    <h2>Boxes de destaque</h2>
+                </div>
+                <div class="col m3">
+                    <div class="box-content">
+                        <div class="box-item">
+                            <span>Imagem</span>
+                            <span>196 x 163</span>
+                        </div>
+                        <div class="box">
+                            <p>Um texto descritivo com link apenas</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col m3">
+                    <div class="box-content">
+                        <div class="box-item">
+                            <span>Imagem</span>
+                            <span>196 x 163</span>
+                        </div>
+                        <div class="box">
+                            <p>Um texto descritivo com link apenas</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col m3">
+                    <div class="box-content">
+                        <div class="box-item">
+                            <span>Imagem</span>
+                            <span>196 x 163</span>
+                        </div>
+                        <div class="box">
+                            <p>Um texto descritivo com link apenas</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col m3">
+                    <div class="box-content">
+                        <div class="box-item">
+                            <span>Imagem</span>
+                            <span>196 x 163</span>
+                        </div>
+                        <div class="box">
+                            <p>Um texto descritivo com link apenas</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+       
+        </main>
+      
+        <footer>
+            <div class="footer-menu">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Empresa</a></li>
+                    <li><a href="">Clientes</a></li>
+                    <li><a href="">Contato</a></li>
+                </ul>
+            </div>
+            <div class="rodape">
+                <h4>Rodape</h4>
+            </div>
+        </footer>
+
+        <script src="js/script.js" charset="utf-8"></script>
+    </body>
+</html>
